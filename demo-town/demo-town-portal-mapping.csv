@@ -1,0 +1,9 @@
+signalId,assetId,assetProperty,valueFactor,sourceAssetId
+North DMA inlet flow,PRV-1,flow,1,FT_N_IN
+North DMA critical point pressure,J-6,pressure,1,PT_N_CP
+West DMA inlet flow,PRV-2,flow,1,FT_W_IN
+West DMA critical point pressure,J-101,pressure,1,PT_W_CP
+East DMA inlet flow,PRV-3,flow,1,FT_E_IN
+East DMA critical point pressure,J-9,pressure,1,PT_E_CP
+Trunk main pressure near the tank,J-189,pressure,1,PT_TRUNK
+Tank level,T-1,level,1,LT_TANK

@@ -13,6 +13,17 @@ Minas Gerais, Brazil. Sources, pipes, diameters, demands and patterns are invent
 - `tiradentes/data/tiradentes_streets.json`: the derived street database it is built from (OpenStreetMap streets, SRTM ground levels).
 - sha256 of the `.inp`: `c31d0d3b44bc0248e779368531496b6896877584fe88e817e3f469870fbc7180`.
 
+## Demo Town (synthetic)
+`demo-town/`: synthetic networks laid along real streets of the centre of Aguascalientes, Mexico (EPSG:32613, UTM zone 13N; the
+`[TITLE]` carries `Q_VAR_PROJECTION=EPSG:32613`). Pipes, diameters, demands, elevations, reservoir and tank are invented; not a real utility.
+
+- `demo-town.inp`: the base network (191 junctions).
+- `demo-town-portal.inp`: a fuller version with 3 pressure-reducing valves, 3 districts and 8 sensors.
+  - `demo-town-portal.json`: its FlowAnalyzer Web project.
+  - `demo-town-portal-readings.csv`: one week of invented sensor readings.
+  - `demo-town-portal-mapping.csv`: how the sensors map onto the network.
+- The derived street database is the network geometry itself (junction coordinates and pipe vertices from OpenStreetMap streets).
+
 ## Licence and attribution
 Street layout © OpenStreetMap contributors, available under the Open Database License (ODbL) 1.0:
 https://opendatacommons.org/licenses/odbl/1-0/ · https://www.openstreetmap.org/copyright
