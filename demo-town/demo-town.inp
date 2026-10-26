@@ -3,6 +3,7 @@ Demo Town - synthetic demo network (not a real utility; no real assets)
 Q_VAR_PROJECTION=EPSG:32613
 
 ; Street layout derived from OpenStreetMap data (c) OpenStreetMap contributors, ODbL.
+; Source database: https://github.com/transparentbluewater/flowanalyzer-sample-networks
 ; Pipes, diameters, demands, elevations, reservoir and tank are invented for demonstration.
 
 [JUNCTIONS]
