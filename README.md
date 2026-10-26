@@ -11,7 +11,7 @@ Minas Gerais, Brazil. Sources, pipes, diameters, demands and patterns are invent
   read that line open it in place on a map.
 - Two pressure zones with PRVs, one tank, one reservoir, 96 h extended period. Ground levels approximate (SRTM 30 m).
 - `tiradentes/data/tiradentes_streets.json`: the derived street database it is built from (OpenStreetMap streets, SRTM ground levels).
-- sha256 of the `.inp`: `c31d0d3b44bc0248e779368531496b6896877584fe88e817e3f469870fbc7180`.
+- sha256 of the `.inp`: `2a9711e91c95d06bebfd58c0e8d2c4c0b6796a3d2c3c9ed42ba335d547203289`.
 
 ## Demo Town (synthetic)
 `demo-town/`: synthetic networks laid along real streets of the centre of Aguascalientes, Mexico (EPSG:32613, UTM zone 13N; the
